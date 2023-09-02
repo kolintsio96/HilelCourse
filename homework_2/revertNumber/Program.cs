@@ -7,7 +7,7 @@
         {
             int num;
             int revert_number = 0;
-            Console.Write("Enter distance: ");
+            Console.Write("Enter number: ");
             string input = Console.ReadLine();
             num = int.Parse(input);
             while (num > 0)
