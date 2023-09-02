@@ -9,9 +9,9 @@
             int b = 2;
 
             //1
-            //(a, b) = (b, a);
-            //Console.WriteLine(a);
-            //Console.WriteLine(b);
+            (a, b) = (b, a);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
             //2      
             a = (byte)(a * b);
@@ -21,11 +21,11 @@
             Console.WriteLine(b);
 
             //3      
-            //a = a ^ b;
-            //b = b ^ a;
-            //a = a ^ b;
-            //Console.WriteLine(a);
-            //Console.WriteLine(b);
+            a = a ^ b;
+            b = b ^ a;
+            a = a ^ b;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
         }
     }
 }
