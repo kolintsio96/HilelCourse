@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangedNumber", "homework_2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageNumber", "homework_2\AverageNumber\AverageNumber.csproj", "{E5C96FC0-5284-4E80-87F9-3C55FDFC91D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceVariable", "homework_2\ReplaceVariable\ReplaceVariable.csproj", "{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E5C96FC0-5284-4E80-87F9-3C55FDFC91D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C96FC0-5284-4E80-87F9-3C55FDFC91D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C96FC0-5284-4E80-87F9-3C55FDFC91D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
