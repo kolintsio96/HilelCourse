@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_1", "homework_1\homework_1.csproj", "{2F59B20C-61A6-45A8-8E9C-5443F9912522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revertNumber", "homework_2\revertNumber\revertNumber.csproj", "{4DBBD5D2-6D8E-42F1-867F-5878C891FF35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevertNumber", "homework_2\revertNumber\RevertNumber.csproj", "{4DBBD5D2-6D8E-42F1-867F-5878C891FF35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSquare", "homework_2\GetSquare\GetSquare.csproj", "{DF051415-1817-403B-BB41-88655F50D9B3}"
 EndProject
