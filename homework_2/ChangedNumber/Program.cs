@@ -25,6 +25,17 @@
             numbers[0] = numbers[0] - numbers[1];
             string[] result = numbers.Select(i => i.ToString()).ToArray();
             Console.WriteLine($"Changed number: {String.Join("", result)}");
+
+            //3
+            Console.Write("Enter number: ");
+            string input3 = Console.ReadLine();
+            int number = int.Parse(input3);
+            int digit1 = number % 10;
+
+            int digit2 = (number / 10) % 10;
+
+            int digit3 = (number / 100) % 10;
+            Console.WriteLine($"Changed number: {digit2}{digit3}{digit1}");
         }
     }
 }
