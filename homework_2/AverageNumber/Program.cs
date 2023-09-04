@@ -9,11 +9,11 @@ namespace AvarageNumber
         {
             Console.Write("Enter first number: ");
             string firstInput = Console.ReadLine();
-            int firstNumber = int.Parse(firstInput);
+            double firstNumber = double.Parse(firstInput);
 
             Console.Write("Enter second number: ");
             string secondInput = Console.ReadLine();
-            int secondNumber = int.Parse(secondInput);
+            double secondNumber = double.Parse(secondInput);
 
             double averageNumber = (firstNumber + secondNumber) / 2;
             Console.WriteLine($"Average number: {averageNumber}");
