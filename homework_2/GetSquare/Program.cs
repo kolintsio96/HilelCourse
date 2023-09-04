@@ -6,11 +6,11 @@
         static void Main(string[] args)
         {
             int num;
-            double square;
+            int square;
             Console.Write("Enter number: ");
             string input = Console.ReadLine();
             num = int.Parse(input);
-            square = Math.Pow(num, 2); // num * num
+            square = num * num;
             Console.WriteLine($"Square of number: {square}");
         }
     }
