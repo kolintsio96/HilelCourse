@@ -10,7 +10,7 @@
             Console.Write("Enter number: ");
             string input = Console.ReadLine();
             num = int.Parse(input);
-            square = num * num;
+            square = (int)Math.Pow(num, 2);
             Console.WriteLine($"Square of number: {square}");
         }
     }
