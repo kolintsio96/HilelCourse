@@ -16,11 +16,11 @@
             bool succesfullParsing = int.TryParse(input, out int result);
             if (!succesfullParsing) {
                 Console.WriteLine("You enter wrong number");
-                ReadNumber();
+                return ReadNumber();
             } else if(result == 0)
             {
                 Console.WriteLine("Please enter number not equal 0");
-                ReadNumber();
+                return ReadNumber();
             }
             return result;
 
