@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingNumbers", "homewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDayOfWeek", "homework_3\GetDayOfWeek\GetDayOfWeek.csproj", "{B527301D-7389-4932-A6A2-2793A80A79EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfSeason", "homework_3\NameOfSeason\NameOfSeason.csproj", "{6D53DFBE-0152-49DB-B864-205CFB444AB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B527301D-7389-4932-A6A2-2793A80A79EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B527301D-7389-4932-A6A2-2793A80A79EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B527301D-7389-4932-A6A2-2793A80A79EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D53DFBE-0152-49DB-B864-205CFB444AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D53DFBE-0152-49DB-B864-205CFB444AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D53DFBE-0152-49DB-B864-205CFB444AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D53DFBE-0152-49DB-B864-205CFB444AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
