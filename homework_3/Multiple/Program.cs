@@ -5,15 +5,15 @@
     {
         static void Main(string[] args)
         {
-            int number = ReadNumber();
-            Multiple(number);
+            short number = ReadNumber();
+            CalculateMultiple(number);
         }
 
-        private static int ReadNumber()
+        private static short ReadNumber()
         {
             Console.Write("Enter number:");
             string input = Console.ReadLine();
-            bool succesfullParsing = int.TryParse(input, out int result);
+            bool succesfullParsing = short.TryParse(input, out short result);
             if (!succesfullParsing)
             {
                 Console.WriteLine("You enter wrong number");
@@ -26,7 +26,7 @@
             return result;
 
         }
-        private static void Multiple(int number)
+        private static void CalculateMultiple(short number)
         {
             if (number % 3 == 0 && number % 5 == 0) {
                 Console.WriteLine("FizzBuzz");
@@ -36,7 +36,7 @@
                 Console.WriteLine("Buzz");
             } else {
                 Console.WriteLine("Please enter a number divisible by 3, 5 or 15");
-                Multiple(ReadNumber());
+                CalculateMultiple(ReadNumber());
             }
         }
     }

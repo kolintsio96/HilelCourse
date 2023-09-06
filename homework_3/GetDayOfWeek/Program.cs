@@ -5,15 +5,15 @@
     {
         static void Main(string[] args)
         {
-            int dayOfWeek = ReadNumber();
+            byte dayOfWeek = ReadNumber();
             GetDayOfWeek(dayOfWeek);
         }
 
-        private static int ReadNumber()
+        private static byte ReadNumber()
         {
             Console.Write("Enter number day of week:");
             string input = Console.ReadLine();
-            bool succesfullParsing = int.TryParse(input, out int result);
+            bool succesfullParsing = byte.TryParse(input, out byte result);
             if (!succesfullParsing)
             {
                 Console.WriteLine("You enter wrong number");
@@ -27,7 +27,7 @@
             return result;
 
         }
-        private static void GetDayOfWeek(int number)
+        private static void GetDayOfWeek(byte number)
         {
             switch (number) { 
                 case 1:

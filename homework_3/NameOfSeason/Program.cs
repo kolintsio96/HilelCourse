@@ -5,15 +5,15 @@
     {
         static void Main(string[] args)
         {
-            int numberOfMonth = ReadNumber();
+            byte numberOfMonth = ReadNumber();
             GetNameOfSeason(numberOfMonth);
         }
 
-        private static int ReadNumber()
+        private static byte ReadNumber()
         {
             Console.Write("Enter number of month:");
             string input = Console.ReadLine();
-            bool succesfullParsing = int.TryParse(input, out int result);
+            bool succesfullParsing = byte.TryParse(input, out byte result);
             if (!succesfullParsing)
             {
                 Console.WriteLine("You enter wrong number");
@@ -22,7 +22,7 @@
             return result;
 
         }
-        private static void GetNameOfSeason(int number)
+        private static void GetNameOfSeason(byte number)
         {
             switch (number)
             {
@@ -47,7 +47,7 @@
                     Console.WriteLine("Autumn");
                     break;
                 default:
-                    Console.WriteLine("You enter wrong number of month");
+                    Console.WriteLine("Such a month does not exist");
                     break;
             }
         }
