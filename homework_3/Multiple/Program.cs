@@ -35,8 +35,7 @@
             } else if (number % 5 == 0) {
                 Console.WriteLine("Buzz");
             } else {
-                Console.WriteLine("Please enter a number divisible by 3, 5 or 15");
-                CalculateMultiple(ReadNumber());
+                Console.WriteLine("The number is not divisible by 3, 5 or 15");
             }
         }
     }

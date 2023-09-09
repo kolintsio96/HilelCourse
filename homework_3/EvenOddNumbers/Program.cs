@@ -6,7 +6,7 @@
         static void Main(string[] args)
         {
             int number = ReadNumber();
-            CheckingEvenOddNumbers(number);
+            CheckAndDisplayNumbers(number);
         }
 
         private static int ReadNumber()
@@ -17,15 +17,11 @@
             if (!succesfullParsing) {
                 Console.WriteLine("You enter wrong number");
                 return ReadNumber();
-            } else if(result == 0)
-            {
-                Console.WriteLine("Please enter number not equal 0");
-                return ReadNumber();
             }
             return result;
 
         }
-        private static void CheckingEvenOddNumbers(int number)
+        private static void CheckAndDisplayNumbers(int number)
         {
             if (number % 2 == 0) {
                 Console.WriteLine("You enter even number");    
