@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple", "homework_3\Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPassword", "homework_4\CheckPassword\CheckPassword.csproj", "{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber", "homework_4\GuessNumber\GuessNumber.csproj", "{E9A51821-3DCC-4044-8F90-5E9E293EA983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A51821-3DCC-4044-8F90-5E9E293EA983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A51821-3DCC-4044-8F90-5E9E293EA983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A51821-3DCC-4044-8F90-5E9E293EA983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A51821-3DCC-4044-8F90-5E9E293EA983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
