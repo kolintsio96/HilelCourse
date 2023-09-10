@@ -13,3 +13,7 @@
 	+ [GetDayOfWeek](homework_3/GetDayOfWeek)
 	+ [NameOfSeason](homework_3/NameOfSeason)
 	+ [Multiple](homework_3/Multiple)
++ [Loop](homework_4)
+	+ [CheckPassword](homework_4/CheckPassword)
+	+ [GuessNumber](homework_4/GuessNumber)
+	+ [SimpleNumber](homework_4/SimpleNumber)
