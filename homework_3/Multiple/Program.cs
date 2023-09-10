@@ -28,7 +28,7 @@
         }
         private static void CalculateMultiple(short number)
         {
-            if (number % 3 == 0 && number % 5 == 0) {
+            if (number % 15 == 0) {
                 Console.WriteLine("FizzBuzz");
             } else if (number % 3 == 0) {
                 Console.WriteLine("Fizz");
