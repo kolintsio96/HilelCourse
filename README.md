@@ -17,7 +17,7 @@
 	+ [CheckPassword](homework_4/CheckPassword)
 	+ [GuessNumber](homework_4/GuessNumber)
 	+ [SimpleNumber](homework_4/SimpleNumber)
-[Loop](homework_5)
++ [Arrays](homework_5)
 	+ [ArrayAddToStart](homework_5/ArrayAddToStart)
 	+ [ArrayComparison](homework_5/ArrayComparison)
 	+ [ConcatArray](homework_5/ConcatArray)
