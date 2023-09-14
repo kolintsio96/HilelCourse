@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ConcatArray
+﻿namespace ConcatArray
 {
     //3) Написати програму створення масиву із двох масивів. У підсумковому масиві мають бути елементи першого та другого масиву.
     class Program
