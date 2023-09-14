@@ -1,6 +1,6 @@
 ﻿namespace ArrayAddToStart
 {
-    //Потрібно додати до масиву елемент на початок.
+    //1) Потрібно додати до масиву елемент на початок.
     class Program
     {
         static void Main(string[] args)
