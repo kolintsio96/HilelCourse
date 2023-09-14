@@ -15,21 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageNumber", "homework_2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceVariable", "homework_2\ReplaceVariable\ReplaceVariable.csproj", "{B0ECB11C-2E3D-43AD-BC94-1E722CA29D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddNumbers", "homework_3\EvenOddNumbers\EvenOddNumbers.csproj", "{03033A60-DC02-41E6-A3F4-11E293B1B257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOddNumbers", "homework_3\EvenOddNumbers\EvenOddNumbers.csproj", "{03033A60-DC02-41E6-A3F4-11E293B1B257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingNumbers", "homework_3\ComparingNumbers\ComparingNumbers.csproj", "{AA1E379B-A408-4CAD-A23F-6DA78186D9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparingNumbers", "homework_3\ComparingNumbers\ComparingNumbers.csproj", "{AA1E379B-A408-4CAD-A23F-6DA78186D9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDayOfWeek", "homework_3\GetDayOfWeek\GetDayOfWeek.csproj", "{B527301D-7389-4932-A6A2-2793A80A79EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDayOfWeek", "homework_3\GetDayOfWeek\GetDayOfWeek.csproj", "{B527301D-7389-4932-A6A2-2793A80A79EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfSeason", "homework_3\NameOfSeason\NameOfSeason.csproj", "{6D53DFBE-0152-49DB-B864-205CFB444AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameOfSeason", "homework_3\NameOfSeason\NameOfSeason.csproj", "{6D53DFBE-0152-49DB-B864-205CFB444AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple", "homework_3\Multiple\Multiple.csproj", "{2C814147-F723-4C21-AB78-4FA7C00FA1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiple", "homework_3\Multiple\Multiple.csproj", "{2C814147-F723-4C21-AB78-4FA7C00FA1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPassword", "homework_4\CheckPassword\CheckPassword.csproj", "{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckPassword", "homework_4\CheckPassword\CheckPassword.csproj", "{27B8FD75-8FEC-4436-8EB6-E5B8F2683EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber", "homework_4\GuessNumber\GuessNumber.csproj", "{E9A51821-3DCC-4044-8F90-5E9E293EA983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "homework_4\GuessNumber\GuessNumber.csproj", "{E9A51821-3DCC-4044-8F90-5E9E293EA983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNumber", "homework_4\SimpleNumber\SimpleNumber.csproj", "{C36D50FF-8097-4A47-A326-C4680E31739E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleNumber", "homework_4\SimpleNumber\SimpleNumber.csproj", "{C36D50FF-8097-4A47-A326-C4680E31739E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAddToStart", "homework_5\ArrayAddToStart\ArrayAddToStart.csproj", "{A407DCF7-4810-43C1-A57F-F45B181761E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{C36D50FF-8097-4A47-A326-C4680E31739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36D50FF-8097-4A47-A326-C4680E31739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36D50FF-8097-4A47-A326-C4680E31739E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A407DCF7-4810-43C1-A57F-F45B181761E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A407DCF7-4810-43C1-A57F-F45B181761E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A407DCF7-4810-43C1-A57F-F45B181761E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A407DCF7-4810-43C1-A57F-F45B181761E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
