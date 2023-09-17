@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-
-namespace SortOfLastName
+﻿namespace SortOfLastName
 {
     //4) Відсортуйте введений список прізвищ за алфавітом та виведіть його на екран.
     class Program
