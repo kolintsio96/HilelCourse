@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfElements", "homework_6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationOfElements", "homework_6\MultiplicationOfElements\MultiplicationOfElements.csproj", "{480F19AF-5A41-4133-8A8D-7ED2254D8638}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfPositivaAndNegative", "homework_6\CountOfPositivaAndNegative\CountOfPositivaAndNegative.csproj", "{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{480F19AF-5A41-4133-8A8D-7ED2254D8638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{480F19AF-5A41-4133-8A8D-7ED2254D8638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{480F19AF-5A41-4133-8A8D-7ED2254D8638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
