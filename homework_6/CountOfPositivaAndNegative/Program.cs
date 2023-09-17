@@ -1,5 +1,4 @@
-﻿
-namespace CountOfPositivaAndNegative
+﻿namespace CountOfPositivaAndNegative
 {
     //3) Задано квадратну матрицю цілих чисел. Підрахуйте кількість негативних та позитивних елементів.
     class Program
