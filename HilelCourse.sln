@@ -31,15 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "homework_4\G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleNumber", "homework_4\SimpleNumber\SimpleNumber.csproj", "{C36D50FF-8097-4A47-A326-C4680E31739E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAddToStart", "homework_5\ArrayAddToStart\ArrayAddToStart.csproj", "{A407DCF7-4810-43C1-A57F-F45B181761E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayAddToStart", "homework_5\ArrayAddToStart\ArrayAddToStart.csproj", "{A407DCF7-4810-43C1-A57F-F45B181761E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintArray", "homework_5\PrintArray\PrintArray.csproj", "{98E5AA5F-61AB-4EEC-AA60-36FBCD5352BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintArray", "homework_5\PrintArray\PrintArray.csproj", "{98E5AA5F-61AB-4EEC-AA60-36FBCD5352BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatArray", "homework_5\ConcatArray\ConcatArray.csproj", "{058F930E-A910-4111-9AE2-A6B78AC2D3FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatArray", "homework_5\ConcatArray\ConcatArray.csproj", "{058F930E-A910-4111-9AE2-A6B78AC2D3FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElementFromArray", "homework_5\RemoveElementFromArray\RemoveElementFromArray.csproj", "{9752C343-F2DF-46A5-90C3-4DC2B1597194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElementFromArray", "homework_5\RemoveElementFromArray\RemoveElementFromArray.csproj", "{9752C343-F2DF-46A5-90C3-4DC2B1597194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayComparison", "homework_5\ArrayComparison\ArrayComparison.csproj", "{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayComparison", "homework_5\ArrayComparison\ArrayComparison.csproj", "{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfElements", "homework_6\SumOfElements\SumOfElements.csproj", "{6183A624-8E43-47AA-81DC-4051C4EE8F89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6183A624-8E43-47AA-81DC-4051C4EE8F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6183A624-8E43-47AA-81DC-4051C4EE8F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6183A624-8E43-47AA-81DC-4051C4EE8F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6183A624-8E43-47AA-81DC-4051C4EE8F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
