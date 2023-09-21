@@ -29,3 +29,5 @@
 	+ [SortOfLastName](homework_6/SortOfLastName)
 	+ [StudentEvaluations](homework_6/StudentEvaluations)
 	+ [SumOfElements](homework_6/SumOfElements)
++ [Enum](homework_7)
+	+ [Calculator](homework_7/Calculator)
