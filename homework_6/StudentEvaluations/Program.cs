@@ -8,44 +8,108 @@
             int[] mathGrades = GetRandomGrades(7);
             int[] physicsGrades = GetRandomGrades(5);
             int[] chemistryGrades = GetRandomGrades(10);
+            OpenMainMenu(mathGrades, physicsGrades, chemistryGrades);
+        }
+
+        private static void OpenMainMenu(int[] mathGrades, int[] physicsGrades, int[] chemistryGrades)
+        {
             while (true)
             {
-                Console.Write("""
-                    1. Enter a math grade 
-                    2. Enter a physics grade
-                    3. Enter a chemistry grade
-                    4. Get an average score
-                    5. Show all of grades
-                    6. Exit
-                    Choose an option:
-                    """);
-                string input = Console.ReadLine();
+                Console.Clear();
+                Operations input = ReadOperation();
 
                 switch (input)
                 {
-                    case "1":
-                        mathGrades = ReadAndAddGrade("Math", mathGrades);
+                    case Operations.Enter:
+                        OpenSubmenu(Operations.Enter, mathGrades, physicsGrades, chemistryGrades);
                         break;
-                    case "2":
-                        physicsGrades = ReadAndAddGrade("Physics", physicsGrades);
-                        break;
-                    case "3":
-                        chemistryGrades = ReadAndAddGrade("Chemistry", chemistryGrades);
-                        break;
-                    case "4":
-                        CalculateAvarage("math", mathGrades);
-                        CalculateAvarage("physics", physicsGrades);
-                        CalculateAvarage("chemistry", chemistryGrades);
+                    case Operations.Avarage:
+                        OpenSubmenu(Operations.Avarage, mathGrades, physicsGrades, chemistryGrades);
                         Console.ReadLine();
                         break;
-                    case "5":
-                        PrintGrade("Math", mathGrades);
-                        PrintGrade("Physics", physicsGrades);
-                        PrintGrade("Chemistry", chemistryGrades);
+                    case Operations.Print:
+                        OpenSubmenu(Operations.Print, mathGrades, physicsGrades, chemistryGrades);
                         Console.ReadLine();
                         break;
-                    case "6":
+                    case Operations.Exit:
                         Console.WriteLine("Exiting program");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid option");
+                        Console.ReadLine();
+                        break;
+                }
+                Console.Clear();
+            }
+        }
+        private static void OpenSubmenu(Operations operations, int[] mathGrades, int[] physicsGrades, int[] chemistryGrades)
+        {
+            while (true)
+            {
+                Console.Clear();
+                switch (operations)
+                {
+                    case Operations.Enter:
+                        Console.WriteLine("Enter a grade:");
+                        Console.WriteLine();
+                        break;
+                    case Operations.Avarage:
+                        Console.WriteLine("Get an average score:");
+                        Console.WriteLine();
+                        break;
+                    case Operations.Print:
+                        Console.WriteLine("Print grades:");
+                        Console.WriteLine();
+                        break;
+                }
+                Subjects input = ReadSubject();
+
+                switch (input)
+                {
+                    case Subjects.Math:
+                        switch (operations)
+                        {
+                            case Operations.Enter:
+                                mathGrades = ReadAndAddGrade("Math", mathGrades);
+                                break;
+                            case Operations.Avarage:
+                                CalculateAvarage("math", mathGrades);
+                                break;
+                            case Operations.Print:
+                                PrintGrade("Math", mathGrades);
+                                break;
+                        }
+                        break;
+                    case Subjects.Physics:
+                        switch (operations)
+                        {
+                            case Operations.Enter:
+                                physicsGrades = ReadAndAddGrade("Physics", physicsGrades);
+                                break;
+                            case Operations.Avarage:
+                                CalculateAvarage("physics", physicsGrades);
+                                break;
+                            case Operations.Print:
+                                PrintGrade("Physics", physicsGrades);
+                                break;
+                        }
+                        break;
+                    case Subjects.Chemistry:
+                        switch (operations)
+                        {
+                            case Operations.Enter:
+                                chemistryGrades = ReadAndAddGrade("Chemistry", chemistryGrades);
+                                break;
+                            case Operations.Avarage:
+                                CalculateAvarage("chemistry", chemistryGrades);
+                                break;
+                            case Operations.Print:
+                                PrintGrade("Chemistry", chemistryGrades);
+                                break;
+                        }
+                        break;
+                    case Subjects.Exit:
+                        OpenMainMenu(mathGrades, physicsGrades, chemistryGrades);
                         return;
                     default:
                         Console.WriteLine("Invalid option");
@@ -60,6 +124,7 @@
         {
             float avarage = (float)grades.Sum() / grades.Length;
             Console.WriteLine($"Average grade in {subject}: {Math.Round(avarage, 2)}");
+            Console.ReadLine();
         }
 
         private static int[] ReadAndAddGrade(string subject, int[] grades)
@@ -72,6 +137,7 @@
         {
             Console.Write($"{subject} grades: ");
             PrintArray(grades);
+            Console.ReadLine();
         }
 
         private static int[] GetRandomGrades(int size)
@@ -99,6 +165,64 @@
             {
                 Console.WriteLine("Please enter grade from 1 to 12");
                 return ReadGrade(subject);
+            }
+            return result;
+
+        }
+
+        private static Operations ReadOperation()
+        {
+            Console.Write("""
+                    1. Enter a grade 
+                    2. Get an average score
+                    3. Print grades
+                    4. Exit
+                    Choose an option:
+                    """);
+            string input = Console.ReadLine();
+            bool succesfullParsing = Enum.TryParse<Operations>(input, out Operations result);
+            if (!succesfullParsing)
+            {
+                Console.Clear();
+                Console.WriteLine("You enter wrong number");
+                Console.WriteLine();
+                return ReadOperation();
+            }
+            else if (result < Operations.Enter || result > Operations.Exit)
+            {
+                Console.Clear();
+                Console.WriteLine($"Please enter number from 1 to 4");
+                Console.WriteLine();
+                return ReadOperation();
+            }
+            return result;
+
+        }
+
+        private static Subjects ReadSubject()
+        {
+            Console.Write("""
+                    1. Math 
+                    2. Physics
+                    3. Chemistry
+                    4. Exit
+                    Choose an option:
+                    """);
+            string input = Console.ReadLine();
+            bool succesfullParsing = Enum.TryParse<Subjects>(input, out Subjects result);
+            if (!succesfullParsing)
+            {
+                Console.Clear();
+                Console.WriteLine("You enter wrong number");
+                Console.WriteLine();
+                return ReadSubject();
+            }
+            else if (result < Subjects.Math || result > Subjects.Exit)
+            {
+                Console.Clear();
+                Console.WriteLine($"Please enter number from 1 to 4");
+                Console.WriteLine();
+                return ReadSubject();
             }
             return result;
 
