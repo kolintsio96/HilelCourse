@@ -56,6 +56,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "homework_7\Calculator\Calculator.csproj", "{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,10 @@ Global
 		{5F21AD17-9D61-4990-B783-E9060E5EB08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F21AD17-9D61-4990-B783-E9060E5EB08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F21AD17-9D61-4990-B783-E9060E5EB08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
