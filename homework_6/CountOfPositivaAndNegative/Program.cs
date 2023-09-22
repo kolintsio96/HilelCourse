@@ -5,10 +5,9 @@
     {
         static void Main(string[] args)
         {
-            int n = 5;
-            int m = 5;
-            int[,] randomArray = new int[n, m];
-            randomArray = GetRandomArray(n, m);
+            int n = ReadSizeOfMatrix();
+            int[,] randomArray = new int[n, n];
+            randomArray = GetRandomArray(n, n);
             PrintArray(randomArray);
             CalculateCountOfPositiveAndNegative(randomArray);
         }
@@ -58,6 +57,20 @@
                 }
                 Console.WriteLine();
             }
+
+        }
+
+        private static int ReadSizeOfMatrix()
+        {
+            Console.Write("Enter size of matrix:");
+            string input = Console.ReadLine();
+            bool succesfullParsing = int.TryParse(input, out int result);
+            if (!succesfullParsing)
+            {
+                Console.WriteLine("You enter wrong number");
+                return ReadSizeOfMatrix();
+            }
+            return result;
 
         }
     }

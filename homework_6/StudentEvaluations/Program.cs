@@ -5,9 +5,9 @@
     {
         static void Main(string[] args)
         {
-            int[] mathGrades = GetRandomGrades(7);
-            int[] physicsGrades = GetRandomGrades(5);
-            int[] chemistryGrades = GetRandomGrades(10);
+            int[] mathGrades = GetRandomGrades(ReadNumber("math"));
+            int[] physicsGrades = GetRandomGrades(ReadNumber("physics"));
+            int[] chemistryGrades = GetRandomGrades(ReadNumber("chemistry"));
             OpenMainMenu(mathGrades, physicsGrades, chemistryGrades);
         }
 
@@ -235,6 +235,20 @@
                 Console.Write(i + "  ");
             }
             Console.WriteLine();
+
+        }
+
+        private static int ReadNumber(string subject)
+        {
+            Console.Write($"Enter count of random grades for {subject}: ");
+            string input = Console.ReadLine();
+            bool succesfullParsing = int.TryParse(input, out int result);
+            if (!succesfullParsing)
+            {
+                Console.WriteLine("You enter wrong number");
+                return ReadNumber(subject);
+            }
+            return result;
 
         }
     }

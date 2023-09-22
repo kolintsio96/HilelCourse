@@ -5,9 +5,10 @@
     {
         static void Main(string[] args)
         {
-            int[] randomArray = GetRandomArray(5);
+            int n = ReadNumber("Enter size of array:");
+            int[] randomArray = GetRandomArray(n);
             PrintArray(randomArray);
-            int number = ReadNumber();
+            int number = ReadNumber("Enter number:");
             int product = CalculateMultiplicationOfElements(randomArray, number);
             Console.WriteLine(product);
         }
@@ -47,15 +48,15 @@
 
         }
 
-        private static int ReadNumber()
+        private static int ReadNumber(string message)
         {
-            Console.Write("Enter number:");
+            Console.Write(message);
             string input = Console.ReadLine();
             bool succesfullParsing = int.TryParse(input, out int result);
             if (!succesfullParsing)
             {
                 Console.WriteLine("You enter wrong number");
-                return ReadNumber();
+                return ReadNumber(message);
             }
             return result;
 
