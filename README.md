@@ -31,3 +31,5 @@
 	+ [SumOfElements](homework_6/SumOfElements)
 + [Enum](homework_7)
 	+ [Calculator](homework_7/Calculator)
++ [Class](homework_8)
+	+ [Address](homework_8/Address)
