@@ -41,22 +41,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElementFromArray", "h
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayComparison", "homework_5\ArrayComparison\ArrayComparison.csproj", "{03DC8094-1F5C-4914-9D64-BCD53E2F60E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfElements", "homework_6\SumOfElements\SumOfElements.csproj", "{6183A624-8E43-47AA-81DC-4051C4EE8F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfElements", "homework_6\SumOfElements\SumOfElements.csproj", "{6183A624-8E43-47AA-81DC-4051C4EE8F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationOfElements", "homework_6\MultiplicationOfElements\MultiplicationOfElements.csproj", "{480F19AF-5A41-4133-8A8D-7ED2254D8638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationOfElements", "homework_6\MultiplicationOfElements\MultiplicationOfElements.csproj", "{480F19AF-5A41-4133-8A8D-7ED2254D8638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfPositivaAndNegative", "homework_6\CountOfPositivaAndNegative\CountOfPositivaAndNegative.csproj", "{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountOfPositivaAndNegative", "homework_6\CountOfPositivaAndNegative\CountOfPositivaAndNegative.csproj", "{A068CAFE-C757-4D15-9CAD-1B707F85E6B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortOfLastName", "homework_6\SortOfLastName\SortOfLastName.csproj", "{76A4A1DA-2786-4F13-84E8-783D3C735A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortOfLastName", "homework_6\SortOfLastName\SortOfLastName.csproj", "{76A4A1DA-2786-4F13-84E8-783D3C735A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEvaluations", "homework_6\StudentEvaluations\StudentEvaluations.csproj", "{5F21AD17-9D61-4990-B783-E9060E5EB08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEvaluations", "homework_6\StudentEvaluations\StudentEvaluations.csproj", "{5F21AD17-9D61-4990-B783-E9060E5EB08E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00E6974A-4E0F-4689-8F69-5F23C21BDD21}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "homework_7\Calculator\Calculator.csproj", "{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "homework_7\Calculator\Calculator.csproj", "{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address", "homework_8\Address\Address.csproj", "{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -164,6 +166,10 @@ Global
 		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA2AB75-38C9-4CB1-8A9E-8CA1C8D84427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
