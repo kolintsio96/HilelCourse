@@ -33,3 +33,6 @@
 	+ [Calculator](homework_7/Calculator)
 + [Class](homework_8)
 	+ [Address](homework_8/Address)
++ [Constructor class](homework_9)
+	+ [Figure](homework_9/Figure)
+	+ [User](homework_9/User)
