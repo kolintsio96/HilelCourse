@@ -13,7 +13,6 @@
             this.side2 = side2;
             Area = AreaCalculator();
             Perimeter = PerimeterCalculator();
-            PrintResult();
         }
 
         private double AreaCalculator()
@@ -26,7 +25,7 @@
             return (side1 + side2) * 2;
         }
         
-        private void PrintResult()
+        public void PrintResult()
         {
             Console.WriteLine($"Area: {Area}");
             Console.WriteLine($"Perimeter: {Perimeter}");
