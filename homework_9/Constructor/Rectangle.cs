@@ -1,4 +1,4 @@
-﻿namespace Constructor
+﻿namespace Figure
 {
     internal class Rectangle
     {

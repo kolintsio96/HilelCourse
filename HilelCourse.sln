@@ -60,7 +60,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "homework_7\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address", "homework_8\Address\Address.csproj", "{C778F810-91B6-45E4-9BB2-6C4D4BAF3708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "homework_9\Constructor\Constructor.csproj", "{84D9F6BC-DD37-4C07-B835-806A23C26F17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "homework_9\Constructor\Figure.csproj", "{84D9F6BC-DD37-4C07-B835-806A23C26F17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
