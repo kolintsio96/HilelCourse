@@ -6,8 +6,12 @@
         {
             double side1 = ReadNumber("Enter first side: ");
             double side2 = ReadNumber("Enter second side: ");
-            Rectangle rectangle = new Rectangle(side1, side2);
+            Rectangle rectangle = new Rectangle(side1, side2); // rectangle
             rectangle.PrintResult();
+
+            double side3 = ReadNumber("Enter side: ");
+            Rectangle square = new Rectangle(side3); // square
+            square.PrintResult();
         }
 
         private static double ReadNumber(string message)

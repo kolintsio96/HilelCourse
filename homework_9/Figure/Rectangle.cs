@@ -14,6 +14,12 @@
             Area = AreaCalculator();
             Perimeter = PerimeterCalculator();
         }
+        
+        public Rectangle(double side1): this(side1, side1)
+        {
+            Area = AreaCalculator();
+            Perimeter = PerimeterCalculator();
+        }
 
         private double AreaCalculator()
         {
