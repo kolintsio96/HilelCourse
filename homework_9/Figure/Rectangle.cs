@@ -4,22 +4,16 @@
     {
         double side1, side2;
 
-        public double Area { get; }
-        public double Perimeter { get; }
+        public double Area { get { return AreaCalculator(); } }
+        public double Perimeter { get { return PerimeterCalculator(); } }
 
         public Rectangle(double side1, double side2)
         {
             this.side1 = side1;
             this.side2 = side2;
-            Area = AreaCalculator();
-            Perimeter = PerimeterCalculator();
         }
         
-        public Rectangle(double side1): this(side1, side1)
-        {
-            Area = AreaCalculator();
-            Perimeter = PerimeterCalculator();
-        }
+        public Rectangle(double side1): this(side1, side1){}
 
         private double AreaCalculator()
         {
