@@ -36,3 +36,6 @@
 + [Constructor class](homework_9)
 	+ [Figure](homework_9/Figure)
 	+ [User](homework_9/User)
++ [Inheritance](homework_10)
+	+ [Figure](homework_10/Inheritance.Figure)
+	+ [Transport](homework_10/Transport)
