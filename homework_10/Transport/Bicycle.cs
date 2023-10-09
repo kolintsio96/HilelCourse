@@ -9,7 +9,7 @@ namespace Inheritance.Transport
              this.type = type;
         }
 
-        public void PrintInfo()
+        public override void PrintInfo()
         {
             Console.WriteLine($"Bicycle");
             Console.WriteLine($"Name: {name}\nMax speed: {maxSpeed}\nType of bicycle: {type}");

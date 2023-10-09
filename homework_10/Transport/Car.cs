@@ -7,7 +7,7 @@
             this.countDoor = countDoor;
         }
 
-        public void PrintInfo()
+        public override void PrintInfo()
         {
             Console.WriteLine($"Car");
             Console.WriteLine($"Name: {name}\nMax speed: {maxSpeed}\nCount of doors: {countDoor}");

@@ -7,7 +7,7 @@
             string carName = ReadInput("Enter car name: ");
             int carMaxSpeed= ReadInput("Enter car max speed: ", true, 300);
             int countOfDoors = ReadInput("Enter count of doors: ", true, 5);
-            Car car = new Car(carName, carMaxSpeed, (byte)countOfDoors);
+            Transport car = new Car(carName, carMaxSpeed, (byte)countOfDoors);
             car.PrintInfo();
 
             string bicycleName = ReadInput("Enter bicycle name: ");
