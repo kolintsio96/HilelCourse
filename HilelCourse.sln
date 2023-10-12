@@ -64,9 +64,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figure", "homework_9\Figure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User", "homework_9\User\User.csproj", "{C28494B7-D7BF-4D79-B6F8-2EFD890873FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance.Figure", "homework_10\Inheritance.Figure\Inheritance.Figure.csproj", "{DAE572BE-8834-4675-9A87-20D6931EFCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance.Figure", "homework_10\Inheritance.Figure\Inheritance.Figure.csproj", "{DAE572BE-8834-4675-9A87-20D6931EFCDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance.Transport", "homework_10\Transport\Inheritance.Transport.csproj", "{2982AA75-5204-4843-9459-724802694466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance.Transport", "homework_10\Transport\Inheritance.Transport.csproj", "{2982AA75-5204-4843-9459-724802694466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "homework_11\BankAccount\BankAccount.csproj", "{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -194,6 +196,10 @@ Global
 		{2982AA75-5204-4843-9459-724802694466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2982AA75-5204-4843-9459-724802694466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2982AA75-5204-4843-9459-724802694466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
