@@ -70,6 +70,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance.Transport", "ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "homework_11\BankAccount\BankAccount.csproj", "{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentWorker", "homework_11\DocumentWorker\DocumentWorker.csproj", "{5AA74E95-3FC4-4401-9574-57DD2DB3B31A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -200,6 +202,10 @@ Global
 		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AFBB23-8D65-4FEE-B7CF-DF2346B2466A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA74E95-3FC4-4401-9574-57DD2DB3B31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA74E95-3FC4-4401-9574-57DD2DB3B31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA74E95-3FC4-4401-9574-57DD2DB3B31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA74E95-3FC4-4401-9574-57DD2DB3B31A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
