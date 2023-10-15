@@ -74,6 +74,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentWorker", "homework_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface.Movable", "homework_12\Interface.Movable\Interface.Movable.csproj", "{44FB69BA-4419-4519-A7BC-F326F5B99C25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathUtility", "homework_12\MathUtility\MathUtility.csproj", "{35ECF9EB-8413-4998-BEC9-6A88C7C42486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,6 +214,10 @@ Global
 		{44FB69BA-4419-4519-A7BC-F326F5B99C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FB69BA-4419-4519-A7BC-F326F5B99C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FB69BA-4419-4519-A7BC-F326F5B99C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ECF9EB-8413-4998-BEC9-6A88C7C42486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ECF9EB-8413-4998-BEC9-6A88C7C42486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ECF9EB-8413-4998-BEC9-6A88C7C42486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ECF9EB-8413-4998-BEC9-6A88C7C42486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

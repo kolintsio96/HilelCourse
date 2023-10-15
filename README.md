@@ -42,3 +42,6 @@
 + [Virtual methods and abstract classes](homework_11)
 	+ [BankAccount](homework_11/BankAccount)
 	+ [DocumentWorker](homework_11/DocumentWorker)
++ [Interface and static classes](homework_12)
+	+ [Interface.Movable](homework_12/Interface.Movable)
+	+ [MathUtility](homework_12/MathUtility)
