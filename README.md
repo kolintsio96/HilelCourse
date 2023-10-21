@@ -45,3 +45,7 @@
 + [Interface and static classes](homework_12)
 	+ [Interface.Movable](homework_12/Interface.Movable)
 	+ [MathUtility](homework_12/MathUtility)
++ [Collections](homework_13)
+	+ [Dictionary](homework_13/Dictionary)
+	+ [Orders](homework_13/Orders)
+	+ [Shop](homework_13/Shop)
